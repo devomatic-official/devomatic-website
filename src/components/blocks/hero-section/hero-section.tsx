@@ -219,9 +219,9 @@ export function HeroSection() {
 }
 
 const menuItems = [
-    { name: 'Demos', href: '#demo-section' },
-    { name: 'Services', href: '#services-section' },
-    { name: 'How it works', href: '#how-it-works-section' },
+    { name: 'Demos', href: '#emo-section' },
+    { name: 'Services', href: 'services-section' },
+    { name: 'How it works', href: 'how-it-works-section' },
     { name: 'About', href: '/about' },
 ]
 
