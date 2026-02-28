@@ -1,6 +1,6 @@
 'use client'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
-import { BotMessageSquare, BrainCircuit, ChartBarIncreasingIcon, LaptopMinimal, ScanHeart } from 'lucide-react'
+import { BotMessageSquare, BrainCircuit, ChartBarIncreasingIcon, LaptopMinimal, ScanHeart, TrendingUp } from 'lucide-react'
 import Image from 'next/image'
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
@@ -24,12 +24,16 @@ export default function ServicesSection() {
             alt: 'ChatBot',
         },
         'item-4': {
-            image: '/services/analytics-dashboard.png',
+            image: '/services/analytics-dashboard.jpeg',
             alt: 'Analytics Dashboard',
         },
         'item-5': {
             image: '/services/hospital-management-tool.png',
             alt: 'HospitaL Management Tool',
+        }
+        , 'item-6': {
+            image: '/services/digital-marketing.jpeg',
+            alt: ' Digital Marketing',
         }
     }
 
@@ -92,6 +96,17 @@ export default function ServicesSection() {
                                 </div>
                             </AccordionTrigger>
                             <AccordionContent>Simplify hospital operations with an AI-powered system that manages patients, staff, and records—all in one place.</AccordionContent>
+                        </AccordionItem>
+                        <AccordionItem value="item-6">
+                            <AccordionTrigger>
+                                <div className="flex items-center gap-2 text-base">
+                                    <TrendingUp className="size-4" />
+                                    Digital Marketing
+                                </div>
+                            </AccordionTrigger>
+                            <AccordionContent>
+                                Grow your business with AI-driven digital marketing solutions. We help you generate high-quality leads, optimize ad campaigns, automate email and WhatsApp outreach, and track performance with real-time analytics dashboards. From SEO and social media management to paid ads and conversion optimization, everything is designed to maximize ROI and scale your brand efficiently.
+                            </AccordionContent>
                         </AccordionItem>
                     </Accordion>
 

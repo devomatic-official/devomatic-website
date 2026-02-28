@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader } from '@/components/ui/card'
-import { Globe } from 'lucide-react'
+import { Bot, Globe } from 'lucide-react'
 import Image from 'next/image'
 
 export default function DemosSection() {
@@ -67,11 +67,11 @@ export default function DemosSection() {
 
                         <div className="flex justify-center gap-6">
                             <div className="inset-shadow-sm dark:inset-shadow-white/5 bg-muted/35 relative flex aspect-square size-16 items-center rounded-[7px] border p-3 shadow-lg ring dark:shadow-white/5 dark:ring-black">
-                                <span className="absolute right-2 top-1 block text-sm">fn</span>
-                                <Globe className="mt-auto size-4" />
+                                <span className="absolute right-2 top-1 block text-sm">AI</span>
+                                <Bot className="mt-auto size-4" />
                             </div>
                             <div className="inset-shadow-sm dark:inset-shadow-white/5 bg-muted/35 flex aspect-square size-16 items-center justify-center rounded-[7px] border p-3 shadow-lg ring dark:shadow-white/5 dark:ring-black">
-                                <span>K</span>
+                                <span className='text-sm'>ChatBot</span>
                             </div>
                         </div>
                     </Card>
@@ -82,7 +82,7 @@ export default function DemosSection() {
                         </CardHeader>
                         <CardContent className="relative h-fit px-6 pb-6 md:px-12 md:pb-12">
                             <div className="grid grid-cols-4 gap-2 md:grid-cols-6">
-                                <div className="rounded-(--radius) aspect-square border border-dashed"></div>
+                                {/* <div className="rounded-(--radius) aspect-square border border-dashed"></div> */}
                                 <div className="rounded-(--radius) bg-muted/50 flex aspect-square items-center justify-center border p-4">
                                     <img
                                         className="m-auto size-8 invert "
@@ -92,7 +92,7 @@ export default function DemosSection() {
                                         height="32"
                                     />
                                 </div>
-                                <div className="rounded-(--radius) aspect-square border border-dashed"></div>
+                                <div className="rounded-(--radius) aspect-square"></div>
                                 <div className="rounded-(--radius) bg-muted/50 flex aspect-square items-center justify-center border p-4">
                                     <img
                                         className="m-auto size-8 invert "
@@ -102,7 +102,7 @@ export default function DemosSection() {
                                         height="32"
                                     />
                                 </div>
-                                <div className="rounded-(--radius) aspect-square border border-dashed"></div>
+                                <div className="rounded-(--radius) aspect-square"></div>
                                 <div className="rounded-(--radius) bg-muted/50 flex aspect-square items-center justify-center border p-4">
                                     <img
                                         className="m-auto size-8 invert "

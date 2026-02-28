@@ -20,7 +20,7 @@ export default function HowItWorksSection() {
                                 />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">1 Book a Call / Contact Us</h3>
+                            <h3 className="mt-6 font-medium">Book a Call / Contact Us</h3>
                         </CardHeader>
 
                         <CardContent>
@@ -37,7 +37,7 @@ export default function HowItWorksSection() {
                                 />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">2 Tell Your Requirements</h3>
+                            <h3 className="mt-6 font-medium">Tell Your Requirements</h3>
                         </CardHeader>
 
                         <CardContent>
@@ -54,7 +54,7 @@ export default function HowItWorksSection() {
                                 />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">3 Get Work Done</h3>
+                            <h3 className="mt-6 font-medium">Get Work Done</h3>
                         </CardHeader>
 
                         <CardContent>

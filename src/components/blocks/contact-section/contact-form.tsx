@@ -96,6 +96,7 @@ export default function ContactForm() {
                 <SelectItem value="Web Development">Web Development</SelectItem>
                 <SelectItem value="Chat Bot">Chat Bot</SelectItem>
                 <SelectItem value="Hospital Management System">Hospital Management System</SelectItem>
+                <SelectItem value="Digital Marketing">Digital Marketing</SelectItem>
               </SelectContent>
             </Select>
           </div>

@@ -8,24 +8,43 @@ export default function ContactSection() {
     return (
         <section className="py-32" id="contact-section">
             <div className="mx-auto max-w-4xl px-4 lg:px-0">
-                <h1 className="mb-12 text-center text-4xl font-semibold lg:text-5xl">Feel free to reach us</h1>
+                <div className="mb-16 space-y-4 text-center">
+                    <h1 className="text-4xl font-bold lg:text-6xl bg-gradient-to-r from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-400 bg-clip-text text-transparent">
+                        Get in Touch
+                    </h1>
+                    <p className="mx-auto max-w-xl text-lg text-zinc-600 dark:text-zinc-400">
+                        Have a question or project in mind? We'd love to hear from you.
+                    </p>
+                </div>
 
-                <div className="grid divide-y border md:grid-cols-2 md:gap-4 md:divide-x md:divide-y-0">
-                    <div className="flex flex-col justify-between space-y-8 p-6 sm:p-12">
+                <div className="grid divide-y border rounded-lg md:grid-cols-3 md:gap-0 md:divide-x md:divide-y-0 overflow-hidden">
+                    <div className="flex flex-col justify-between space-y-6 p-8 sm:p-10">
                         <div>
-                            <h2 className="mb-3 text-lg font-semibold">Contact Info</h2>
+                            <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-zinc-600 dark:text-zinc-400">Email</h2>
                             <Link
-                                href="mailto:hello@tailus.io"
-                                className="text-lg text-blue-600 hover:underline dark:text-blue-400">
+                                href="mailto:contactus@devomatic.in"
+                                className="text-lg font-medium text-blue-600 hover:text-blue-700 transition-colors dark:text-blue-400 dark:hover:text-blue-300">
                                 contactus@devomatic.in
                             </Link>
-                            <p className="mt-3 text-sm">+91 81466 83408</p>
                         </div>
+                        <p className="text-xs text-zinc-500 dark:text-zinc-500">We typically respond within 24 hours</p>
                     </div>
-                    <div className="flex flex-col items-center justify-center p-6 sm:p-12">
-                        <CardDecorator>
-                            <Phone className="size-6" aria-hidden />
-                        </CardDecorator>
+                    <div className="flex flex-col justify-between space-y-6 p-8 sm:p-10">
+                        <div>
+                            <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-zinc-600 dark:text-zinc-400">Phone</h2>
+                            <a
+                                href="tel:+918146683408"
+                                className="text-lg font-medium text-blue-600 hover:text-blue-700 transition-colors dark:text-blue-400 dark:hover:text-blue-300">
+                                +91 81466 83408
+                            </a>
+                        </div>
+                        <p className="text-xs text-zinc-500 dark:text-zinc-500">Mon-Fri, 9am-6pm IST</p>
+                    </div>
+                    <div className="flex flex-col items-center justify-center p-8 sm:p-10 bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-zinc-900 dark:to-zinc-800">
+                        <Phone className="size-6" aria-hidden />
+                        <p className="mt-6 text-center text-sm font-medium text-zinc-700 dark:text-zinc-300">
+                            Ready to connect
+                        </p>
                     </div>
                 </div>
 
